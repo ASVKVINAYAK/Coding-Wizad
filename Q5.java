@@ -20,8 +20,8 @@ public class Q5 {
 	        temp = num;
 	        while (temp != 0) {
 	            dig = temp % 10;
-	            temp = temp / 10;
-	            nnum = nnum * 10 + dig;
+	            temp/=10;
+	            nnum*=10 + dig;
 	        }
 
 	        if (nnum == num)

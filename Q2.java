@@ -7,6 +7,7 @@ public class Q2 {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		char[] s=new char[3];
+		System.out.println('P'*'R');
         s[0]='R';
         s[1]='P';
         s[2]='S';
@@ -16,7 +17,7 @@ public class Q2 {
         int i=1,hc=0,scc=0,f=0,z=0;
         while(i<=3)
         {
-        	if(hc==1&&scc==1&&f==1)
+        	if((hc*scc*f)==1) //As hc==1&&scc==1&&f==1 is same as hc*scc*f==1
         	{
         		System.out.println("Tie of Game");
         		z=1;
@@ -52,8 +53,7 @@ public class Q2 {
         	i++;	
         }
         if(z==0)
-        {
-        	
+        {	
         if(hc>scc)
         {
         	System.out.println("User won the round");
@@ -66,5 +66,4 @@ public class Q2 {
           }
         }
       }
-
 }

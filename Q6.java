@@ -1,4 +1,3 @@
-import java.util.*;
 public class Q6 
 {
 	public static boolean prime(int n)

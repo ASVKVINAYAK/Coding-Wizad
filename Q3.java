@@ -6,9 +6,9 @@ public class Q3 {
 		do 
 		{
 			if(n%2==0)
-				n=n/2;
+				n/=2;
 			else
-				n=3*n+1;
+				n*=3+1;
 		 c++;	
 		}while(n!=1);
 		return c;
