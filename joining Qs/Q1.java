@@ -14,13 +14,13 @@ public class Q1
         {
         	ch=s.charAt(i);
         	if(ch=='G')
-        		ss=ss+"C";
+        		ss+="C";
         	else if(ch=='T')
-        		ss=ss+"A";
+        		ss+="A";
         	else if(ch=='C')
-        		ss=ss+"G";
+        		ss+="G";
         	else if(ch=='A')
-        		ss=ss+"U";	
+        		ss+="U";	
         }
         f=ss.length();
         if(j==f)
